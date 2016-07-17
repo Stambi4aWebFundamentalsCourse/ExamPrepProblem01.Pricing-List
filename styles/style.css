@@ -58,6 +58,7 @@ body #wrapper section ul li article section ul li {
   display: block;
   margin: 5px auto;
   border-bottom: 1px solid #EAEEF1;
+  text-align: center;
 }
 body #wrapper section ul li article footer a {
   width: 70%;
