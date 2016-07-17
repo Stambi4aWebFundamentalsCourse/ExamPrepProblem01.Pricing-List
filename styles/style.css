@@ -1,0 +1,93 @@
+﻿body #wrapper {
+  background-color: white;
+  width: 1000px;
+  margin: 0 auto;
+  height: auto;
+  font-family: 'Tahoma', sans-serif;
+  font-size: 16px;
+  color: #7C8A97;
+}
+body #wrapper h2 {
+  font-family: 'Vollkorn', serif;
+  color: #7C8A97;
+}
+body #wrapper header {
+  width: 100%;
+}
+body #wrapper header h2 {
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+body #wrapper section ul {
+  list-style-type: none;
+  display: inline;
+  height: 270px;
+}
+body #wrapper section ul li {
+  width: 30%;
+  display: inline-block;
+}
+body #wrapper section ul li article {
+  background-color: #F6F7F9;
+}
+body #wrapper section ul li article header {
+  box-sizing: border-box;
+  background-color: #EAEEF1;
+  padding: 5px;
+}
+body #wrapper section ul li article header h2 {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 30px;
+}
+body #wrapper section ul li article section h2 {
+  text-transform: lowercase;
+  text-align: center;
+  font-size: 60px;
+  padding: 0;
+}
+body #wrapper section ul li article section ul {
+  list-style-type: none;
+  display: block;
+  padding: 0px;
+}
+body #wrapper section ul li article section ul li {
+  width: 93%;
+  padding: 10px;
+  display: block;
+  margin: 5px auto;
+  border-bottom: 1px solid #EAEEF1;
+}
+body #wrapper section ul li article footer a {
+  width: 70%;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  background-color: #CAD5D9;
+  color: white;
+  padding: 15px 15px 5px;
+  font-weight: 600;
+}
+body #wrapper section ul li article footer a:hover {
+  background-color: #65D3E2;
+  color: white;
+  cursor: grab;
+}
+body #wrapper section ul li article:hover {
+  cursor: grab;
+}
+body #wrapper section ul li article:hover header {
+  background-color: #65D3E2;
+}
+body #wrapper section ul li article:hover header h2 {
+  color: white;
+}
+body #wrapper section ul li article:hover section h2 {
+  color: #65D3E2;
+}
+body #wrapper section ul li article:hover footer a {
+  background-color: #65D3E2;
+  color: white;
+}
